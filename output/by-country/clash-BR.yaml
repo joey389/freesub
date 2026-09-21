@@ -6,60 +6,368 @@ log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - xiaohe
   type: vless
-  server: 164.92.137.46
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
-    path: '%2Fbt%2Fstreaming%2Fad%3Fed%3D2560'
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfvvv-ev1.pages.dev
 - name: 🇧🇷 BR 02 - xiaohe
   type: vless
-  server: 109.107.155.76
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
-    path: /tv/member/auth?ed=2560fp=chrome
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfvvv-ev1.pages.dev
 - name: 🇧🇷 BR 03 - xiaohe
   type: vless
-  server: 132.243.203.207
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
-    path: '%2Flives%3Fed%3D2560'
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfvvv-ev1.pages.dev
 - name: 🇧🇷 BR 04 - xiaohe
   type: vless
-  server: 172.237.120.201
+  server: 104.21.236.63
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: cfvvv-ev1.pages.dev
   network: ws
   ws-opts:
-    path: /edu/group?ed=2560fp=chrome
+    path: /
     headers:
-      Host: cdn8848.776676.xyz
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 05 - xiaohe
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 06 - xiaohe
+  type: vless
+  server: pruritus.patiromer.workers.dev
+  port: 443
+  uuid: 0659eac3-137b-4002-ba2e-88da4d071235
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pruritus.patiromer.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pruritus.patiromer.workers.dev
+- name: 🇧🇷 BR 07 - xiaohe
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 08 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /mtmvpn
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 09 - xiaohe
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 10 - xiaohe
+  type: vless
+  server: 104.24.11.68
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 11 - xiaohe
+  type: vless
+  server: 104.21.98.146
+  port: 8443
+  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cgzdynepurqs.mercury061.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/48493148ec15
+    headers:
+      Host: cgzdynepurqs.mercury061.workers.dev
+- name: 🇧🇷 BR 12 - xiaohe
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 13 - xiaohe
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 14 - xiaohe
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 15 - xiaohe
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 16 - xiaohe
+  type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 17 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 18 - xiaohe
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 19 - xiaohe
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 20 - xiaohe
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 21 - xiaohe
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 22 - xiaohe
+  type: vless
+  server: 157.151.4.93
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇧🇷 BR 23 - xiaohe
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 24 - xiaohe
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 25 - xiaohe
+  type: vless
+  server: 104.21.60.109
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: cfvvv-ev1.pages.dev
+- name: 🇧🇷 BR 26 - xiaohe
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cfvvv-ev1.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cfvvv-ev1.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +377,28 @@ proxy-groups:
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
   - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
+  - 🇧🇷 BR 06 - xiaohe
+  - 🇧🇷 BR 07 - xiaohe
+  - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
+  - 🇧🇷 BR 10 - xiaohe
+  - 🇧🇷 BR 11 - xiaohe
+  - 🇧🇷 BR 12 - xiaohe
+  - 🇧🇷 BR 13 - xiaohe
+  - 🇧🇷 BR 14 - xiaohe
+  - 🇧🇷 BR 15 - xiaohe
+  - 🇧🇷 BR 16 - xiaohe
+  - 🇧🇷 BR 17 - xiaohe
+  - 🇧🇷 BR 18 - xiaohe
+  - 🇧🇷 BR 19 - xiaohe
+  - 🇧🇷 BR 20 - xiaohe
+  - 🇧🇷 BR 21 - xiaohe
+  - 🇧🇷 BR 22 - xiaohe
+  - 🇧🇷 BR 23 - xiaohe
+  - 🇧🇷 BR 24 - xiaohe
+  - 🇧🇷 BR 25 - xiaohe
+  - 🇧🇷 BR 26 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +408,27 @@ proxy-groups:
   - 🇧🇷 BR 02 - xiaohe
   - 🇧🇷 BR 03 - xiaohe
   - 🇧🇷 BR 04 - xiaohe
+  - 🇧🇷 BR 05 - xiaohe
+  - 🇧🇷 BR 06 - xiaohe
+  - 🇧🇷 BR 07 - xiaohe
+  - 🇧🇷 BR 08 - xiaohe
+  - 🇧🇷 BR 09 - xiaohe
+  - 🇧🇷 BR 10 - xiaohe
+  - 🇧🇷 BR 11 - xiaohe
+  - 🇧🇷 BR 12 - xiaohe
+  - 🇧🇷 BR 13 - xiaohe
+  - 🇧🇷 BR 14 - xiaohe
+  - 🇧🇷 BR 15 - xiaohe
+  - 🇧🇷 BR 16 - xiaohe
+  - 🇧🇷 BR 17 - xiaohe
+  - 🇧🇷 BR 18 - xiaohe
+  - 🇧🇷 BR 19 - xiaohe
+  - 🇧🇷 BR 20 - xiaohe
+  - 🇧🇷 BR 21 - xiaohe
+  - 🇧🇷 BR 22 - xiaohe
+  - 🇧🇷 BR 23 - xiaohe
+  - 🇧🇷 BR 24 - xiaohe
+  - 🇧🇷 BR 25 - xiaohe
+  - 🇧🇷 BR 26 - xiaohe
 rules:
 - MATCH,PROXIES
